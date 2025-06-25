@@ -1,8 +1,3 @@
-Excellent idea — a good `README.md` makes your project professional and easy to understand for anyone visiting your GitHub repo or Streamlit Cloud.
-
-Here’s a clean, well-structured `README.md` you can copy directly into your project folder:
-
----
 
 ## 📄 `README.md`
 
@@ -114,7 +109,7 @@ Developed by **Adekunle Adegbie** for **SEMILOGE TEXTILES & JEWELRIES**.
 For inquiries or collaborations:
 
 * 📧 [adekunle@example.com](mailto:adekunle@example.com)
-* 📱 +234 801 234 5678
+* 📱 +234 80 254 20200
 
 ---
 
@@ -122,20 +117,3 @@ For inquiries or collaborations:
 
 This project is open for use, learning and modification.
 
-````
-
----
-
-## ✅ Next Step:
-- Save this content as a file named `README.md` in your project folder
-- Include it in your GitHub push:
-
-```bash
-git add README.md
-git commit -m "added project README"
-git push
-````
-
-✅ Done. Now your repo will look polished and presentable on GitHub.
-
-Would you like me to generate a badge row (like `made with Python`, `deployed on Streamlit Cloud`, etc.) too? ✨
