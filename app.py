@@ -7,9 +7,10 @@ from supabase import create_client, Client
 import os
 
 # Supabase Credentials
-SUPABASE_URL = "https://vsfchdqytkgzhxaoquzs.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZzZmNoZHF5dGtnemh4YW9xdXpzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEwMzM1NjEsImV4cCI6MjA2NjYwOTU2MX0.dmpQ7QMiHiBwrbIkIFV3n5NrKB2rDMsXxV_wQpmIGbc"  # Replace this with your real key
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Styling
 st.markdown("""
